@@ -46,8 +46,9 @@
     <li>位置情報：周辺のイベントを地図上に表示するための端末の位置情報（許可した場合のみ取得し、許可しなくても本サービスの閲覧は可能です）</li>
     <li>プッシュ通知トークン：保存したイベントの中止通知など、通知の送信に用いる端末識別子（Apple Push Notification service / Firebase Cloud Messaging）</li>
     <li>利用状況・端末情報：アプリの利用ログ、アクセス状況、端末の種類、OSバージョン等</li>
+    <li>購入情報：任意の「チップ（運営への応援）」等のアプリ内課金に関する取引記録</li>
   </ul>
-  <p>本サービスにアプリ内課金はなく、当社が決済情報・クレジットカード情報を取得することはありません。</p>
+  <p>アプリ内課金の決済は Apple（App Store）が処理し、当社がクレジットカード番号その他の決済情報を取得・保管することはありません。当社が Apple から受け取る情報にカード情報は含まれません。</p>
 
   <h2>第2条（利用目的）</h2>
   <ul>
@@ -67,7 +68,7 @@
   <p>当社は、本サービスの運営にあたり以下の外部サービスを利用しており、これらにデータの保管・処理を委託しています。</p>
   <ul>
     <li>Google Firebase（Authentication / Cloud Firestore / Cloud Storage / Cloud Functions / Cloud Messaging / Analytics）：認証、データ保管、通知配信、利用状況の分析に利用</li>
-    <li>Apple（Sign in with Apple、Apple Push Notification service）：認証および通知配信に利用</li>
+    <li>Apple（Sign in with Apple、Apple Push Notification service、App Store のアプリ内課金）：認証、通知配信、およびアプリ内課金の決済処理に利用</li>
   </ul>
   <p>各サービスにおける情報の取り扱いは、各社のプライバシーポリシーに従います。なお、本サービスは広告配信やアプリ横断的なトラッキングを目的とした情報の利用は行いません。</p>
 
